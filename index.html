@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="assets/images/logo.jpeg" type="image/png" />
 
     <!--====== Animate CSS ======-->
     <link rel="stylesheet" href="assets/css/animate.css" />
@@ -680,7 +680,9 @@
                         <div class="col-lg-5">
                             <div class="section-title text-center pb-30">
                                 <div class="line m-auto"></div>
-                                <h3 class="title"><span>Meet Our</span> Supervisor & Innovation Expert</h3>
+                                <h3 class="title">
+                                    <span>Meet Our</span> Supervisor & Innovation Expert
+                                </h3>
                             </div>
                             <!-- section title -->
                         </div>
@@ -710,18 +712,18 @@
                         <div class="col-lg-4 col-md-7 col-sm-8">
                             <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                 <div class="team-image">
-                                    <img src="assets/images/ahmet.jpeg" alt="Team" />
+                                    <img src="assets/images/mustafa.jpg" alt="Team" />
                                     <div class="social">
                                         <ul>
                                             <li>
-                                                <a href="https://www.linkedin.com/in/ahmeterenbasak/?originalSubdomain=tr"><i class="lni-linkedin-original"></i
+                                                <a href="https://www.linkedin.com/in/sakalsiz/"><i class="lni-linkedin-original"></i
                       ></a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="team-content">
-                                    <h5 class="holder-name"><a href="#">Ahmet Eren Başak</a></h5>
+                                    <h5 class="holder-name"><a href="#">Mustafa Sakalsız</a></h5>
                                     <p class="text">Innovation Expert</p>
                                 </div>
                             </div>
@@ -947,6 +949,18 @@
 
             <!--====== Main js ======-->
             <script src="assets/js/main.js"></script>
+
+            <script type="text/javascript">
+                document.querySelectorAll('a[href="#features"]').forEach((anchor) => {
+                    anchor.addEventListener("click", function(e) {
+                        e.preventDefault();
+
+                        document.querySelector(this.getAttribute("href")).scrollIntoView({
+                            behavior: "smooth",
+                        });
+                    });
+                });
+            </script>
 </body>
 
 </html>
