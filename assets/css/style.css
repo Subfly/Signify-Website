@@ -1421,9 +1421,6 @@ p {
     position: absolute;
     top: 100px;
     left: 95px;
-    -webkit-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
 }
 @media (max-width: 767px) {
@@ -1538,9 +1535,6 @@ p {
     }
 }
 .features-image .image {
-    -webkit-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
     border-radius: 50px;
 }
 .features-image .features-shape-1 {
@@ -1801,9 +1795,7 @@ p {
     }
 }
 .download-area .download-image .image {
-    -webkit-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
-    -moz-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
-    box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
+    
     border-radius: 50px;
     max-width: 295px;
     margin: 0 auto;
