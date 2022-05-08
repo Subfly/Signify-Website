@@ -1359,7 +1359,7 @@ p {
        04.ABOUT css 
 ===========================*/
 .about-area {
-    background-color: #f3fdff;
+    background-color: #f8f7ff;
     overflow: hidden;
 }
 
@@ -1625,7 +1625,7 @@ p {
      08.TESYIMONIAL css 
 ===========================*/
 .testimonial-area {
-    background-color: #f3fdff;
+    background-color: #f8f7ff;
 }
 
 .single-testimonial-content {
@@ -2177,7 +2177,7 @@ p {
     display: none;
 }
 .back-to-top:hover {
-    background-color: rgba(8, 152, 231, 0.5);
+    background-color: rgba(101, 99, 237, 0.7);
     color: #fff;
 }
 
